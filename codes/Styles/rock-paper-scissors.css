@@ -1,0 +1,47 @@
+body{
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 50px;
+}
+.game-description{
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.icon-buttons:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+  transition: 0.2s ease;
+}
+
+.reset-score:hover {
+  background-color: #ddd;
+  transition: 0.2s ease;
+}
+
+.moves-icon{
+  height: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.icon-buttons{
+  background-color: transparent;
+  height: 120px;
+  width: 120px;
+  border: 2px solid white;
+  border-radius: 60px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.result-css{
+  font-size: 20px;
+  font-weight: bold;
+}
+.reset-score{
+  background-color: white;
+  padding: 10px 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
